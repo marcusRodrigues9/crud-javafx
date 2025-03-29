@@ -4,5 +4,5 @@ module com.example.primeirocrud {
 
 
     opens com.example.primeirocrud to javafx.fxml;
-    exports com.example.primeirocrud;
+    exports com.example.primeirocrud to javafx.graphics;
 }
